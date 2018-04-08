@@ -90,7 +90,7 @@ public class ParseHelper {
 
         }
 
-        parseObject.put("id",UUID.randomUUID().toString());
+        parseObject.put("id",incident.getId());
         parseObject.put("user", ParseUser.getCurrentUser());
         parseObject.put("userName",incident.getUserName());
         parseObject.put("category",incident.getCategoryId());
