@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A40ABD7A0E909E59A649F /* Pods_Marshall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F47782AB10E73DB18D74E5F /* Pods_Marshall.framework */; };
+		CE9DF87720789A3200CC8DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DF87620789A3200CC8DA5 /* AppDelegate.swift */; };
+		CE9DF87920789A3200CC8DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DF87820789A3200CC8DA5 /* ViewController.swift */; };
+		CE9DF87C20789A3200CC8DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF87A20789A3200CC8DA5 /* Main.storyboard */; };
+		CE9DF87E20789A3200CC8DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF87D20789A3200CC8DA5 /* Assets.xcassets */; };
+		CE9DF88120789A3200CC8DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF87F20789A3200CC8DA5 /* LaunchScreen.storyboard */; };
+		CE9DF88C20789A3200CC8DA5 /* MarshallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DF88B20789A3200CC8DA5 /* MarshallTests.swift */; };
+		CE9DF89720789A3200CC8DA5 /* MarshallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DF89620789A3200CC8DA5 /* MarshallUITests.swift */; };
+		CE9DF8A520789A6D00CC8DA5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF8A420789A6D00CC8DA5 /* Podfile */; };
+		CED0E7CF2078C4820086289D /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E7CE2078C4820086289D /* AuthenticationViewController.swift */; };
+		CED0E7D5207923250086289D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED0E7D2207921BA0086289D /* Model.xcdatamodeld */; };
+		CED0E7D92079933E0086289D /* IncidentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E7D82079933E0086289D /* IncidentDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9DF88820789A3200CC8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9DF86B20789A3200CC8DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9DF87220789A3200CC8DA5;
+			remoteInfo = Marshall;
+		};
+		CE9DF89320789A3200CC8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9DF86B20789A3200CC8DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9DF87220789A3200CC8DA5;
+			remoteInfo = Marshall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0733DD7F02F1DAB25E567E /* Pods-Marshall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marshall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marshall/Pods-Marshall.debug.xcconfig"; sourceTree = "<group>"; };
+		3F47782AB10E73DB18D74E5F /* Pods_Marshall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marshall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACC2143A82809465FA289B3 /* Pods-Marshall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marshall.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marshall/Pods-Marshall.release.xcconfig"; sourceTree = "<group>"; };
+		CE9DF87320789A3200CC8DA5 /* Marshall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marshall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9DF87620789A3200CC8DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9DF87820789A3200CC8DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9DF87B20789A3200CC8DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9DF87D20789A3200CC8DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9DF88020789A3200CC8DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9DF88220789A3200CC8DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9DF88720789A3200CC8DA5 /* MarshallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarshallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9DF88B20789A3200CC8DA5 /* MarshallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarshallTests.swift; sourceTree = "<group>"; };
+		CE9DF88D20789A3200CC8DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9DF89220789A3200CC8DA5 /* MarshallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarshallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9DF89620789A3200CC8DA5 /* MarshallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarshallUITests.swift; sourceTree = "<group>"; };
+		CE9DF89820789A3200CC8DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9DF8A420789A6D00CC8DA5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CED0E7CE2078C4820086289D /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		CED0E7D02078C7C40086289D /* Marshall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marshall-Bridging-Header.h"; sourceTree = "<group>"; };
+		CED0E7D1207921930086289D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CED0E7D3207921BA0086289D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CED0E7D82079933E0086289D /* IncidentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9DF87020789A3200CC8DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A40ABD7A0E909E59A649F /* Pods_Marshall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9DF88420789A3200CC8DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9DF88F20789A3200CC8DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E50B034901A7A6E57AD9A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C0733DD7F02F1DAB25E567E /* Pods-Marshall.debug.xcconfig */,
+				CACC2143A82809465FA289B3 /* Pods-Marshall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE9DF86A20789A3200CC8DA5 = {
+			isa = PBXGroup;
+			children = (
+				CED0E7D2207921BA0086289D /* Model.xcdatamodeld */,
+				CED0E7D02078C7C40086289D /* Marshall-Bridging-Header.h */,
+				CE9DF8A420789A6D00CC8DA5 /* Podfile */,
+				CE9DF87520789A3200CC8DA5 /* Marshall */,
+				CE9DF88A20789A3200CC8DA5 /* MarshallTests */,
+				CE9DF89520789A3200CC8DA5 /* MarshallUITests */,
+				CE9DF87420789A3200CC8DA5 /* Products */,
+				41E50B034901A7A6E57AD9A4 /* Pods */,
+				DBCE9E652049BFE413AC37B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9DF87420789A3200CC8DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DF87320789A3200CC8DA5 /* Marshall.app */,
+				CE9DF88720789A3200CC8DA5 /* MarshallTests.xctest */,
+				CE9DF89220789A3200CC8DA5 /* MarshallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9DF87520789A3200CC8DA5 /* Marshall */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DF87620789A3200CC8DA5 /* AppDelegate.swift */,
+				CE9DF87820789A3200CC8DA5 /* ViewController.swift */,
+				CE9DF87A20789A3200CC8DA5 /* Main.storyboard */,
+				CE9DF87D20789A3200CC8DA5 /* Assets.xcassets */,
+				CE9DF87F20789A3200CC8DA5 /* LaunchScreen.storyboard */,
+				CE9DF88220789A3200CC8DA5 /* Info.plist */,
+				CED0E7CE2078C4820086289D /* AuthenticationViewController.swift */,
+				CED0E7D82079933E0086289D /* IncidentDetailViewController.swift */,
+			);
+			path = Marshall;
+			sourceTree = "<group>";
+		};
+		CE9DF88A20789A3200CC8DA5 /* MarshallTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DF88B20789A3200CC8DA5 /* MarshallTests.swift */,
+				CE9DF88D20789A3200CC8DA5 /* Info.plist */,
+			);
+			path = MarshallTests;
+			sourceTree = "<group>";
+		};
+		CE9DF89520789A3200CC8DA5 /* MarshallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DF89620789A3200CC8DA5 /* MarshallUITests.swift */,
+				CE9DF89820789A3200CC8DA5 /* Info.plist */,
+			);
+			path = MarshallUITests;
+			sourceTree = "<group>";
+		};
+		DBCE9E652049BFE413AC37B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED0E7D1207921930086289D /* CoreData.framework */,
+				3F47782AB10E73DB18D74E5F /* Pods_Marshall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9DF87220789A3200CC8DA5 /* Marshall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9DF89B20789A3200CC8DA5 /* Build configuration list for PBXNativeTarget "Marshall" */;
+			buildPhases = (
+				85032151991110F3A01C97BA /* [CP] Check Pods Manifest.lock */,
+				CE9DF86F20789A3200CC8DA5 /* Sources */,
+				CE9DF87020789A3200CC8DA5 /* Frameworks */,
+				CE9DF87120789A3200CC8DA5 /* Resources */,
+				B5A42668C9234D560F3D778F /* [CP] Embed Pods Frameworks */,
+				011A4E192F98499B3AEF4EE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marshall;
+			productName = Marshall;
+			productReference = CE9DF87320789A3200CC8DA5 /* Marshall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9DF88620789A3200CC8DA5 /* MarshallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9DF89E20789A3200CC8DA5 /* Build configuration list for PBXNativeTarget "MarshallTests" */;
+			buildPhases = (
+				CE9DF88320789A3200CC8DA5 /* Sources */,
+				CE9DF88420789A3200CC8DA5 /* Frameworks */,
+				CE9DF88520789A3200CC8DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9DF88920789A3200CC8DA5 /* PBXTargetDependency */,
+			);
+			name = MarshallTests;
+			productName = MarshallTests;
+			productReference = CE9DF88720789A3200CC8DA5 /* MarshallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9DF89120789A3200CC8DA5 /* MarshallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9DF8A120789A3200CC8DA5 /* Build configuration list for PBXNativeTarget "MarshallUITests" */;
+			buildPhases = (
+				CE9DF88E20789A3200CC8DA5 /* Sources */,
+				CE9DF88F20789A3200CC8DA5 /* Frameworks */,
+				CE9DF89020789A3200CC8DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9DF89420789A3200CC8DA5 /* PBXTargetDependency */,
+			);
+			name = MarshallUITests;
+			productName = MarshallUITests;
+			productReference = CE9DF89220789A3200CC8DA5 /* MarshallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9DF86B20789A3200CC8DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Phartiyal Pankaj";
+				TargetAttributes = {
+					CE9DF87220789A3200CC8DA5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					CE9DF88620789A3200CC8DA5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE9DF87220789A3200CC8DA5;
+					};
+					CE9DF89120789A3200CC8DA5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE9DF87220789A3200CC8DA5;
+					};
+				};
+			};
+			buildConfigurationList = CE9DF86E20789A3200CC8DA5 /* Build configuration list for PBXProject "Marshall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9DF86A20789A3200CC8DA5;
+			productRefGroup = CE9DF87420789A3200CC8DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9DF87220789A3200CC8DA5 /* Marshall */,
+				CE9DF88620789A3200CC8DA5 /* MarshallTests */,
+				CE9DF89120789A3200CC8DA5 /* MarshallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9DF87120789A3200CC8DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9DF88120789A3200CC8DA5 /* LaunchScreen.storyboard in Resources */,
+				CE9DF87E20789A3200CC8DA5 /* Assets.xcassets in Resources */,
+				CE9DF8A520789A6D00CC8DA5 /* Podfile in Resources */,
+				CE9DF87C20789A3200CC8DA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9DF88520789A3200CC8DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9DF89020789A3200CC8DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011A4E192F98499B3AEF4EE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marshall/Pods-Marshall-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marshall/Pods-Marshall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85032151991110F3A01C97BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marshall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A42668C9234D560F3D778F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marshall/Pods-Marshall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marshall/Pods-Marshall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9DF86F20789A3200CC8DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9DF87920789A3200CC8DA5 /* ViewController.swift in Sources */,
+				CED0E7CF2078C4820086289D /* AuthenticationViewController.swift in Sources */,
+				CE9DF87720789A3200CC8DA5 /* AppDelegate.swift in Sources */,
+				CED0E7D92079933E0086289D /* IncidentDetailViewController.swift in Sources */,
+				CED0E7D5207923250086289D /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9DF88320789A3200CC8DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9DF88C20789A3200CC8DA5 /* MarshallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9DF88E20789A3200CC8DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9DF89720789A3200CC8DA5 /* MarshallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9DF88920789A3200CC8DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9DF87220789A3200CC8DA5 /* Marshall */;
+			targetProxy = CE9DF88820789A3200CC8DA5 /* PBXContainerItemProxy */;
+		};
+		CE9DF89420789A3200CC8DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9DF87220789A3200CC8DA5 /* Marshall */;
+			targetProxy = CE9DF89320789A3200CC8DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE9DF87A20789A3200CC8DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9DF87B20789A3200CC8DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9DF87F20789A3200CC8DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9DF88020789A3200CC8DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9DF89920789A3200CC8DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9DF89A20789A3200CC8DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9DF89C20789A3200CC8DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0733DD7F02F1DAB25E567E /* Pods-Marshall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVTC4GR45A;
+				INFOPLIST_FILE = Marshall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chegg.nasscom.Marshall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marshall-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE9DF89D20789A3200CC8DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACC2143A82809465FA289B3 /* Pods-Marshall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVTC4GR45A;
+				INFOPLIST_FILE = Marshall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chegg.nasscom.Marshall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marshall-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE9DF89F20789A3200CC8DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVTC4GR45A;
+				INFOPLIST_FILE = MarshallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chegg.nasscom.MarshallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marshall.app/Marshall";
+			};
+			name = Debug;
+		};
+		CE9DF8A020789A3200CC8DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVTC4GR45A;
+				INFOPLIST_FILE = MarshallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chegg.nasscom.MarshallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marshall.app/Marshall";
+			};
+			name = Release;
+		};
+		CE9DF8A220789A3200CC8DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVTC4GR45A;
+				INFOPLIST_FILE = MarshallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chegg.nasscom.MarshallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marshall;
+			};
+			name = Debug;
+		};
+		CE9DF8A320789A3200CC8DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVTC4GR45A;
+				INFOPLIST_FILE = MarshallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chegg.nasscom.MarshallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marshall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9DF86E20789A3200CC8DA5 /* Build configuration list for PBXProject "Marshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9DF89920789A3200CC8DA5 /* Debug */,
+				CE9DF89A20789A3200CC8DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9DF89B20789A3200CC8DA5 /* Build configuration list for PBXNativeTarget "Marshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9DF89C20789A3200CC8DA5 /* Debug */,
+				CE9DF89D20789A3200CC8DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9DF89E20789A3200CC8DA5 /* Build configuration list for PBXNativeTarget "MarshallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9DF89F20789A3200CC8DA5 /* Debug */,
+				CE9DF8A020789A3200CC8DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9DF8A120789A3200CC8DA5 /* Build configuration list for PBXNativeTarget "MarshallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9DF8A220789A3200CC8DA5 /* Debug */,
+				CE9DF8A320789A3200CC8DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CED0E7D2207921BA0086289D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CED0E7D3207921BA0086289D /* Model.xcdatamodel */,
+			);
+			currentVersion = CED0E7D3207921BA0086289D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE9DF86B20789A3200CC8DA5 /* Project object */;
+}

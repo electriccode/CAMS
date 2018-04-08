@@ -1,0 +1,15 @@
+platform :ios, '11.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Marshall' do
+    use_frameworks!
+    pod 'GooglePlaces'
+    pod 'GooglePlacePicker'
+    pod 'GoogleMaps'
+    pod 'Parse'
+    pod 'Parse/FacebookUtils'
+    pod 'Parse/TwitterUtils'
+    pod 'Parse/UI'
+    pod 'Socket.IO-Client-Swift'
+    pod 'SwiftyJSON'
+    pod 'NVActivityIndicatorView'
+end
