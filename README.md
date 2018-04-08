@@ -20,3 +20,5 @@ Moderators. We call them Martials. Each Martial has an area assigned and he will
 - SMS Gateway / Reverse Proxy
 
 ## Architecture
+
+<img src="./assets/architecture.png" />
